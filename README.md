@@ -20,7 +20,7 @@ A customizable AI assistant, designed for personal use with voice commands, file
 ```bash
 # Clone the repository
 git clone https://github.com/ephcha2009/ORDIS-A.I.--ephcha2009.git
-cd ordis-ai
+cd ~/ORDIS-A.I.--ephcha2009
 
 # Install in development mode
 pip install -e .
