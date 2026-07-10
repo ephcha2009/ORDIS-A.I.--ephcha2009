@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+src/ordis_ai/__init__.py
+src/ordis_ai/cli.py
+src/ordis_ai/command_executor.py
+src/ordis_ai/file_operations.py
+src/ordis_ai/voice.py
+src/ordis_ai/web_search.py
+src/ordis_ai.egg-info/PKG-INFO
+src/ordis_ai.egg-info/SOURCES.txt
+src/ordis_ai.egg-info/dependency_links.txt
+src/ordis_ai.egg-info/entry_points.txt
+src/ordis_ai.egg-info/not-zip-safe
+src/ordis_ai.egg-info/requires.txt
+src/ordis_ai.egg-info/top_level.txt
+tests/test_basic.py

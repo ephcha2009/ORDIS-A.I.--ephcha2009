@@ -1,0 +1,42 @@
+{
+  "assistant": {
+    "name": "ORDIS-A.I.",
+    "version": "1.0.0",
+    "voice_enabled": true,
+    "voice_activation_phrase": "Hey ORDIS",
+    "voice_language": "en-US"
+  },
+  "file_access": {
+    "allowed_paths": [
+      "/home/ephraim-chapin/",
+      "/tmp/"
+    ],
+    "restricted_paths": [
+      "/root/",
+      "/etc/passwd",
+      "/etc/shadow"
+    ],
+    "allow_hidden_files": false
+  },
+  "command_execution": {
+    "allow_python": true,
+    "allow_bash": true,
+    "require_confirmation": true,
+    "timeout_seconds": 30
+  },
+  "web_search": {
+    "enabled": true,
+    "provider": "duckduckgo",
+    "safe_search": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/ordis.log",
+    "max_size_mb": 10
+  },
+  "security": {
+    "confirm_dangerous_commands": true,
+    "allow_network_requests": true,
+    "sandbox_mode": false
+  }
+}

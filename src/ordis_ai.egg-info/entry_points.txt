@@ -1,0 +1,2 @@
+[console_scripts]
+ordis = ordis_ai.cli:main
