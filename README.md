@@ -20,15 +20,38 @@ A customizable AI assistant, designed for personal use with voice commands, file
 ```bash
 # Clone the repository
 git clone https://github.com/ephcha2009/ORDIS-A.I.--ephcha2009.git
-cd ~/ORDIS-A.I.--ephcha2009
+cd ORDIS-A.I.--ephcha2009
 
-# Install in development mode
-pip install -e .
+# Create a virtual environment
+python3 -m venv .venv
 
-# Or install dependencies directly
+# Activate it
+# Linux:
+source .venv/bin/activate
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install dependencies
 pip install -r requirements.txt
-```
 
+### Windows:
+# Clone the repository
+git clone https://github.com/ephcha2009/ORDIS-A.I.--ephcha2009.git
+cd ORDIS-A.I.--ephcha2009
+
+# Create a virtual environment
+python3 -m venv .venv
+
+# Activate it
+# Windows:
+python3 .venv\Scripts\activate
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install dependencies
+pip install -r requirements.txt
 ### Option 2: Manual Installation
 
 ```bash
