@@ -10,7 +10,7 @@ import threading
 import tempfile
 import signal
 import logging
-from typing import Optional, Tuple, Dict, Any, List
+from typing import List, Dict, Optional, Union
 from pathlib import Path
 import shlex
 import time
